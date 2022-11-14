@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "How are you?",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, how can I help you?",
+        "Hi there, what can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "Ok then, Bye",
+        "See you later"
+      ],
+      "responses": [
+        "Have a nice day",
+        "Bye! Come back again soon",
+        "See you later, thanks for visiting"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank's",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "My pleasure",
+        "It's my pleasure",
+        "Happy to help you!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Are you cash only?",
+        "Can I pay with Paypal?",
+        "Do you accept Mastercard?",
+        "Do you take credit cards?",
+        "Do your organization take cash?",
+        "Do you accept in GPay, Paytm, PhonePe for payment?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "When do I get my delivery?",
+        "How long does delivery or shipping take?"
+      ],
+      "responses": [
+        "It takes 2-4 days",
+        "Delivery takes 2-4 days",
+        "Your Shipping takes 2-4 days"
+      ]
+    }
+  ]
+}
